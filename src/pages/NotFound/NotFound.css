@@ -1,0 +1,23 @@
+.not-found-container {
+  min-height: calc(100vh - 150px);
+  text-align: center;
+  padding: 2rem;
+}
+
+.not-found-title {
+  font-size: 8rem;
+  color: var(--primary);
+  margin: 0;
+  line-height: 1;
+}
+
+.not-found-subtitle {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.not-found-text {
+  font-size: 1.1rem;
+  max-width: 500px;
+  margin-top: 1rem;
+}

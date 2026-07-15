@@ -1,0 +1,23 @@
+.citizen-dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.status-orange {
+  background-color: rgba(245, 130, 32, 0.2);
+  color: var(--primary);
+}
+
+.status-green {
+  background-color: rgba(46, 204, 113, 0.2);
+  color: var(--success);
+}
+
+.status-red {
+  background-color: rgba(231, 76, 60, 0.2);
+  color: var(--danger);
+}

@@ -1,0 +1,7 @@
+.card {
+  background-color: var(--color-dark-gray);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+  padding: var(--spacing-lg);
+  transition: transform var(--transition-fast);
+}

@@ -1,0 +1,47 @@
+.profile-page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.profile-card {
+  padding: 2rem;
+}
+
+.profile-avatar {
+  width: 80px;
+  height: 80px;
+  background-color: var(--primary);
+  color: var(--bg-dark);
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.profile-header h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.detail-group {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.detail-group:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.detail-group label {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detail-group p {
+  margin: 0.5rem 0 0 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}

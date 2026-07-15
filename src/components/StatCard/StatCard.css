@@ -1,0 +1,35 @@
+.stat-card {
+  background-color: var(--bg-card);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--shadow);
+  border-left: 4px solid var(--text-muted);
+}
+
+.stat-card-primary { border-left-color: var(--primary); }
+.stat-card-success { border-left-color: var(--success); }
+.stat-card-danger { border-left-color: var(--danger); }
+
+.stat-title {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-value {
+  margin: 0.5rem 0 0 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--text-main);
+}
+
+.stat-icon {
+  font-size: 2.5rem;
+  opacity: 0.2;
+}

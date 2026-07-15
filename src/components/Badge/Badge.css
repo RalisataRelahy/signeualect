@@ -1,0 +1,27 @@
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.badge-orange {
+  background-color: rgba(245, 130, 32, 0.15);
+  color: var(--color-orange);
+}
+
+.badge-green {
+  background-color: rgba(46, 204, 113, 0.15);
+  color: var(--color-green);
+}
+
+.badge-red {
+  background-color: rgba(231, 76, 60, 0.15);
+  color: var(--color-red);
+}
+
+.badge-gray {
+  background-color: rgba(204, 204, 204, 0.15);
+  color: var(--color-light-gray);
+}

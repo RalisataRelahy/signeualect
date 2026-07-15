@@ -1,0 +1,17 @@
+.dashboard-container {
+  display: flex;
+  flex: 1;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+/* On mobile, stack them */
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+}

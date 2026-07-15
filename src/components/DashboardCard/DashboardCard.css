@@ -1,0 +1,23 @@
+.dashboard-card {
+  background-color: var(--bg-card);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.dashboard-card-header {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card-title {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--primary);
+}
+
+.dashboard-card-body {
+  padding: 1.5rem;
+}

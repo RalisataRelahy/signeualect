@@ -1,0 +1,39 @@
+.reports-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.report-card {
+  height: 100%;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.report-details p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
+
+.w-100 {
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.border-dashed {
+  border: 1px dashed var(--success);
+  border-radius: var(--border-radius);
+}
+
+.btn-success {
+  background-color: var(--success);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: bold;
+}
