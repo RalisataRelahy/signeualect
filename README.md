@@ -1,4 +1,4 @@
-echo "# 💧⚡ Sign'EauxL'Ecte
+# 💧⚡ Sign'EauxL'Ecte
 
 ## 📌 Description
 
@@ -49,10 +49,46 @@ L'objectif est de faciliter le partage d'informations en temps réel et d'améli
 ---
 
 ## 📂 Architecture du projet
-" >> README.md
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/RalisataRelahy/signeualect.git
-git push -u origin main
+src/
+│
+├── components/ # Composants réutilisables
+├── pages/ # Pages de l'application
+├── layouts/ # Structures globales
+├── services/ # Logique Firebase
+├── firebase/ # Configuration Firebase
+├── hooks/ # Hooks personnalisés
+├── contexts/ # Gestion des états globaux
+├── types/ # Interfaces TypeScript
+└── utils/ # Fonctions utilitaires
+
+
+---
+
+## 🎨 Design
+
+L'interface utilise un thème inspiré de la JIRAMA :
+
+- 🟠 Orange : `#F58220`
+- ⚫ Noir : `#111111`
+
+Le design est responsive et adapté aux :
+
+- Ordinateurs
+- Tablettes
+- Smartphones
+
+---
+
+## 🔥 Base de données Firebase
+
+### Collection `users`
+
+Stocke les informations des utilisateurs.
+
+```json
+{
+  "uid": "user_id",
+  "name": "Utilisateur",
+  "email": "email@example.com",
+  "role": "citizen"
+}
