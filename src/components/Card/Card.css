@@ -4,4 +4,5 @@
   box-shadow: var(--shadow-card);
   padding: var(--spacing-lg);
   transition: transform var(--transition-fast);
+  border-bottom: 2px orange solid;
 }

@@ -26,10 +26,11 @@ export function Navbar() {
         <Link to="/" className="navbar-logo">
           Sign'EauxL'Ecte
         </Link>
-        
+       
         <div className="navbar-links flex items-center gap-4">
           {!user && (
-            <>
+            <> 
+              <Link to='/' className="navbar-link">Acceuil</Link>
               <Link to="/login" className="navbar-link">Connexion</Link>
               <Link to="/register" className="btn-primary">Inscription</Link>
             </>
@@ -37,6 +38,7 @@ export function Navbar() {
 
           {user && user.role === "citizen" && (
             <>
+               <Link to='/' className="navbar-link">Retour</Link>
               <Link to="/citizen/dashboard" className="navbar-link">Dashboard</Link>
               <Link to="/citizen/reports/create" className="btn-primary">Signaler</Link>
               <button onClick={handleLogout} className="btn-outline">Déconnexion</button>

@@ -19,6 +19,7 @@
 }
 
 .reports-grid {
+  padding-top: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 1.5rem;
@@ -26,6 +27,9 @@
 
 .report-admin-card {
   height: 100%;
+  padding: 10px;
+  border: #ff6a00 3px solid;
+  border-radius: 30px;
 }
 
 .line-clamp-2 {
